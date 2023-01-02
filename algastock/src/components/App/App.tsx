@@ -3,7 +3,7 @@
 import React from "react";
 import "./App.css";
 import HomeView from "../../views/HomeView";
-import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import NotFountView from "../../views/NotFountView";
 import LoginView from "../../views/LoginView";
 import ProfileView from "../../views/ProfileView";

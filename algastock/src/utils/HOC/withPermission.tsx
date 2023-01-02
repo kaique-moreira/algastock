@@ -1,8 +1,7 @@
 import React, { FC } from 'react'
 import { useSelector } from 'react-redux'
+import { Navigate } from 'react-router'
 import { RootState } from '../../redux'
-import { Navigate, redirect as redirectPage } from 'react-router-dom'
-import { debug } from 'console'
 
 type Role = 'admin' | 'customer' | undefined
 

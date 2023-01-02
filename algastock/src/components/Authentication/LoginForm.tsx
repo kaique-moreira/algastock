@@ -1,7 +1,7 @@
 // @ts-nocheck
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
-import { useHistory, useNavigate } from "react-router";
+import {useNavigate } from "react-router";
 import Swal from "sweetalert2";
 import { login } from "../../redux/Authentication/Authentication.actions";
 import Button from "../../shared/Button";

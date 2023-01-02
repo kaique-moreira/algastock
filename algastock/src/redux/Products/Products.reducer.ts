@@ -1,6 +1,5 @@
 import { Action } from ".."
-import { getAllProducts } from "../../services/Products.service"
-import Products, { Product } from "../../shared/Table/Table.mockdata"
+import { Product } from "../../shared/Table/Table.mockdata"
 
 
 
